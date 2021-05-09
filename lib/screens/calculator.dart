@@ -13,7 +13,7 @@ class Calculator extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Expanded(
-              flex: 2,
+              flex: 1,
               child: ThemeButton(),
             ),
             Expanded(
