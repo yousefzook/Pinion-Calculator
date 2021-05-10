@@ -14,7 +14,7 @@ class _ThemeButtonState extends State<ThemeButton> {
   Widget build(BuildContext context) {
     return Container(
       child: Padding(
-        padding: EdgeInsets.symmetric(vertical: 35),
+        padding: EdgeInsets.symmetric(vertical: 20),
         child: Center(
           child: ToggleButtons(
             children: [
@@ -23,6 +23,7 @@ class _ThemeButtonState extends State<ThemeButton> {
             ],
             borderRadius: BorderRadius.circular(25),
             onPressed: (int idx) {
+              //TODO: Adding function logic
               setState(() {
                 selectedButton[idx] = true;
                 selectedButton[1 - idx] = false;
